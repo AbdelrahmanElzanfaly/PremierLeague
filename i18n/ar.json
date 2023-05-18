@@ -1,0 +1,14 @@
+{
+  "started_at": "Started At",
+  "no_matches_yet": "No Matches Yet",
+  "FINISHED": "FINISHED",
+  "TIMED": "TIMED",
+  "CANCELED": "CANCELED",
+  "SCHEDULED": "SCHEDULED",
+  "NOT_START": "NOT START",
+  "LIVE_NOW": "LIVE NOW",
+  "premier_league": "Premier League",
+  "response_error": "Response Error",
+  "please_try_again_later": "Please try again later"
+
+}
