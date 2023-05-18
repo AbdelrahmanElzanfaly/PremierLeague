@@ -18,7 +18,7 @@ class MatchController extends ControllerMVC {
 
   List<MatchModel> matches = [];
 
-  /// function to get matches from api
+  /// function to fetch data from api or local
   getMatches() async {
     if (matches.isEmpty) setState(() => loading = true);
     matches = await MatchApi.getMatchesApi();

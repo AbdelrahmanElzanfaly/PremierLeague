@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import '../Modules/HomeScreen/match_screen.dart';
+import '../Modules/MatchScreen/match_screen.dart';
 import '../Modules/splash_screen.dart';
 
 class AppModule extends Module{

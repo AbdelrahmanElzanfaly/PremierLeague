@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:premier_league/Modules/HomeScreen/match_screen.dart';
 import 'package:premier_league/Utilities/extensions.dart';
 import '../Utilities/theme_helper.dart';
+import 'MatchScreen/match_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   static const routeName = "/SplashScreen";

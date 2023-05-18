@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
-import 'package:premier_league/Modules/HomeScreen/widgets/match_widget.dart';
+import 'package:premier_league/Modules/MatchScreen/widgets/match_widget.dart';
 import 'package:premier_league/Utilities/LayoutHelper/loading_screen.dart';
 import 'package:premier_league/Utilities/extensions.dart';
 import 'package:premier_league/generated/assets.dart';
