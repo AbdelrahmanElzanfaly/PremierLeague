@@ -26,8 +26,9 @@ fluttertoast: ^8.1.0
 
 ### Screen Shots :
 
-* <img width="305" alt="Screen Shot 2023-05-19 at 6 23 41 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/14b72ce2-0ce0-438c-886f-8fe8988edc56">
-* <img width="297" alt="Screen Shot 2023-05-19 at 6 26 03 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/3edcc338-b519-400c-a70a-ffdd897d1f1c">
+*<img width="352" alt="Screen Shot 2023-05-19 at 6 35 29 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/6fd6423c-6a3f-4b2e-9722-e821abf38b14">
+*<img width="352" alt="Screen Shot 2023-05-19 at 6 35 29 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/b3713eb5-27af-4ef7-a2d1-75e862832eac">
+* Uploading Screen Recording 2023-05-19 at 6.38.19 PM.mov…
 
 * https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/dec4568b-a7ee-4148-ab25-7ed10df58278
 

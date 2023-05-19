@@ -106,8 +106,7 @@ class _MatchScreenState extends StateMVC<MatchScreen> {
                           left: 0,
                           right: 0,
                           child: Container(
-                            height: 60.h,
-                            width: 375.w,
+                            height: 78.h,
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
                                   begin: Alignment.topCenter,
