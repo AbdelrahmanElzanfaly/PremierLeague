@@ -26,11 +26,11 @@ The goal is to create a sample app that displays information about The English P
 
 # Screen Shots 
 
-*https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/dd95c1ec-eefd-42a8-ad20-cca22e052679
+* https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/dd95c1ec-eefd-42a8-ad20-cca22e052679
 
-*<img width="352" alt="Screen Shot 2023-05-19 at 6 35 29 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/08507981-6c0b-4cca-9932-d6f32e10241b">
+* <img width="352" alt="Screen Shot 2023-05-19 at 6 35 29 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/08507981-6c0b-4cca-9932-d6f32e10241b">
 
-*<img width="300" alt="Screen Shot 2023-05-19 at 6 34 13 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/3f1060b1-4774-49fc-8436-811da24dc4b1">
+* <img width="300" alt="Screen Shot 2023-05-19 at 6 34 13 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/3f1060b1-4774-49fc-8436-811da24dc4b1">
 
 
 
