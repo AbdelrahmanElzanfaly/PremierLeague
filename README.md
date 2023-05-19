@@ -7,26 +7,28 @@ The goal is to create a sample app that displays information about The English P
 # Dependencies:
 
 # Network
-   http: ^0.13.5
+http: ^0.13.5
 
 # Data control
-   mvc_pattern: ^8.12.0
-   shared_preferences: ^2.0.15
-   provider: ^6.0.3
-   intl: ^0.17.0
+mvc_pattern: ^8.12.0
+shared_preferences: ^2.0.15
+provider: ^6.0.3
+intl: ^0.17.0
 
 # Helper
-   flutter_screenutil: ^5.5.4
-   photo_view: ^0.12.0
-   flutter_native_splash: ^2.2.16
-   flutter_modular: ^5.0.3
-   awesome_dialog: 2.2.1
-   fluttertoast: ^8.1.0
+flutter_screenutil: ^5.5.4
+photo_view: ^0.12.0
+flutter_native_splash: ^2.2.16
+flutter_modular: ^5.0.3
+awesome_dialog: 2.2.1
+fluttertoast: ^8.1.0
 
 
 ### Screen Shots :
 
-* ![Simulator Screen Shot - iPhone Xs Max - 2023-05-19 at 17 46 19](https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/c1728b6f-2e10-4947-8ce3-ff16fb4e6761)
+* <img width="305" alt="Screen Shot 2023-05-19 at 6 23 41 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/14b72ce2-0ce0-438c-886f-8fe8988edc56">
+* <img width="297" alt="Screen Shot 2023-05-19 at 6 26 03 PM" src="https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/3edcc338-b519-400c-a70a-ffdd897d1f1c">
+
 * https://github.com/AbdelrahmanElzanfaly/PremierLeague/assets/52531796/dec4568b-a7ee-4148-ab25-7ed10df58278
 
 ## Notes:

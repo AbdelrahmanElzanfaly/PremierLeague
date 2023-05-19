@@ -41,14 +41,11 @@ class _MatchScreenState extends StateMVC<MatchScreen> {
         child: LoadingScreen(
           loading: con.loading,
           child: Scaffold(
-
               backgroundColor: ThemeClass.screenBackGroundColor,
               body: RefreshIndicator(
                   color: ThemeClass.primaryColor,
                   onRefresh: () => con.getMatches(),
-                  child: SafeArea(
-                    bottom:false,
-                      child: ConditionWidget(
+                  child: ConditionWidget(
                     condition: con.matches.isEmpty && !con.loading,
                     conditionWidget: Center(
                       child: EmptyWidget(
@@ -60,44 +57,46 @@ class _MatchScreenState extends StateMVC<MatchScreen> {
                     child: Stack(
                       clipBehavior: Clip.none,
                       children: [
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 24.w),
-                          child: Column(
-                            children: [
-                              space10Vertical,
+                        SafeArea(
+                          child: Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 24.w),
+                            child: Column(
+                              children: [
+                                space10Vertical,
 
-                              /// logo widget
-                              Row(
-                                children: [
-                                  Image.asset(
-                                    Assets.imagesLogo,
-                                    height: 60.h,
-                                    width: 142.h,
-                                  ),
-                                  const Spacer(),
-                                ],
-                              ),
-                              space20Vertical,
-
-                              /// matches List widget
-                              Expanded(
-                                child: ListView.builder(
-                                  itemCount: con.matches.length,
-                                  physics: const BouncingScrollPhysics(),
-                                  itemBuilder: (context, index) {
-                                    return FadeIn(
-                                        delay: 0.7,
-                                        from: SlideFrom.RIGHT,
-                                        child: MatchWidget(
-                                        model: con.matches[index],
-                                        isTheSameDay: con.isTheSameDay(
-                                            dateTime:
-                                                con.matches[index].utcDate!,
-                                            index: index)));
-                                  },
+                                /// logo widget
+                                Row(
+                                  children: [
+                                    Image.asset(
+                                      Assets.imagesLogo,
+                                      height: 60.h,
+                                      width: 142.h,
+                                    ),
+                                    const Spacer(),
+                                  ],
                                 ),
-                              ),
-                            ],
+                                space20Vertical,
+
+                                /// matches List widget
+                                Expanded(
+                                  child: ListView.builder(
+                                    itemCount: con.matches.length,
+                                    physics: const BouncingScrollPhysics(),
+                                    itemBuilder: (context, index) {
+                                      return FadeIn(
+                                          delay: 0.7,
+                                          from: SlideFrom.RIGHT,
+                                          child: MatchWidget(
+                                              model: con.matches[index],
+                                              isTheSameDay: con.isTheSameDay(
+                                                  dateTime: con
+                                                      .matches[index].utcDate!,
+                                                  index: index)));
+                                    },
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
 
@@ -122,7 +121,7 @@ class _MatchScreenState extends StateMVC<MatchScreen> {
                         ),
                       ],
                     ),
-                  )))),
+                  ))),
         ));
   }
 }
