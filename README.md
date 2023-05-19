@@ -7,21 +7,21 @@ The goal is to create a sample app that displays information about The English P
 # Dependencies:
 
 # Network
-*http: ^0.13.5
+* http: ^0.13.5
 
 # Data control
-*mvc_pattern: ^8.12.0
-*shared_preferences: ^2.0.15
-*provider: ^6.0.3
-*intl: ^0.17.0
+* mvc_pattern: ^8.12.0
+* shared_preferences: ^2.0.15
+* provider: ^6.0.3
+* intl: ^0.17.0
 
 # Helper
-*flutter_screenutil: ^5.5.4
-*photo_view: ^0.12.0
-*flutter_native_splash: ^2.2.16
-*flutter_modular: ^5.0.3
-*awesome_dialog: 2.2.1
-*fluttertoast: ^8.1.0
+* flutter_screenutil: ^5.5.4
+* photo_view: ^0.12.0
+* flutter_native_splash: ^2.2.16
+* flutter_modular: ^5.0.3
+* awesome_dialog: 2.2.1
+* fluttertoast: ^8.1.0
 
 
 # Screen Shots 
