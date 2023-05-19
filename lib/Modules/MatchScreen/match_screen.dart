@@ -1,3 +1,4 @@
+import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
@@ -40,11 +41,13 @@ class _MatchScreenState extends StateMVC<MatchScreen> {
         child: LoadingScreen(
           loading: con.loading,
           child: Scaffold(
+
               backgroundColor: ThemeClass.screenBackGroundColor,
               body: RefreshIndicator(
                   color: ThemeClass.primaryColor,
                   onRefresh: () => con.getMatches(),
                   child: SafeArea(
+                    bottom:false,
                       child: ConditionWidget(
                     condition: con.matches.isEmpty && !con.loading,
                     conditionWidget: Center(
@@ -82,12 +85,15 @@ class _MatchScreenState extends StateMVC<MatchScreen> {
                                   itemCount: con.matches.length,
                                   physics: const BouncingScrollPhysics(),
                                   itemBuilder: (context, index) {
-                                    return MatchWidget(
+                                    return FadeIn(
+                                        delay: 0.7,
+                                        from: SlideFrom.RIGHT,
+                                        child: MatchWidget(
                                         model: con.matches[index],
                                         isTheSameDay: con.isTheSameDay(
                                             dateTime:
                                                 con.matches[index].utcDate!,
-                                            index: index));
+                                            index: index)));
                                   },
                                 ),
                               ),

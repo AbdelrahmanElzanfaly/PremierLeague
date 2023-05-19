@@ -19,7 +19,8 @@ Future<void> main() async {
     DeviceOrientation.portraitDown,
   ]);
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Colors.black38, // status bar color
+
+    statusBarColor: Colors.black38, //// status bar color
   ));
   runApp(MultiProvider(
     providers: [
